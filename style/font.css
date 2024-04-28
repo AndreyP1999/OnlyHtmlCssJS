@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./font/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./font/Roboto/Roboto-Light.ttf);
+}
+
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(./font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans-italic;
+    src: url(./font/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+
+
+.font-headline-2 {
+    font-family: Roboto-Medium;
+
+    /* 50px */
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* 59px  */
+    line-height: 1.8rem;
+    letter-spacing: 0px;
+}
+
+
+
+.font-headline-6 {
+    font-family: Open-Sans;
+
+    /* 16xp */
+    font-size: 0.49rem;
+    font-weight: 600;
+
+    /* 22px */
+    line-height: 0.7rem;
+    letter-spacing: 0px;
+}
+
+
+.font-body-1 {
+    font-family: Roboto-Light;
+    /* 74px */
+    font-size: 2.3rem;
+    font-weight: 300;
+    /* 55px */
+    line-height: 1.7rem;
+    letter-spacing: 0px;
+}
+
+.font-body-2 {
+    font-family: Roboto-Regular;
+    /* 34px */
+    font-size: 1rem;
+    font-weight: 400;
+    /* 40px */
+    line-height: 1.2rem;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.font-button {
+    font-family: Roboto-Regular;
+    /* 18xp */
+    font-size: 0.56rem;
+    font-weight: 400;
+    /* 21px */
+    line-height: 0.6rem;
+}
+
+.font-button-Larg {
+    font-family: Roboto-Regular;
+    /* 30px  */
+    font-size: 0.9rem;
+    font-weight: 400;
+    /* 34px */
+    line-height: 1rem;
+    letter-spacing: 0px;
+}
+
+
+.font-Paragraph {
+    font-family: Roboto-Regular;
+    /* 26px  */
+    font-size: 0.8rem;
+    font-weight: 400;
+    /* 40px */
+    line-height: 1.2rem;
+    letter-spacing: 0;
+}
+
+
+.font-a-1 {
+    font-family: Open-Sans;
+    /*16px*/
+    font-size: 0.49rem;
+    font-weight: 400;
+
+    /* 24px */
+    line-height: 0.7rem;
+    letter-spacing: 0px;
+}
+
+.Overline {
+    font-family: Open-Sans;
+    /*12px*/
+    font-size: 0.37rem;
+    font-weight: 600;
+    /* 16px */
+    line-height: 0.49rem;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/font.css">
+    <script src="./JavaScript/gsap/gsap.js"></script>
+    <script src="./JavaScript/gsap/ScrollTrigger.js"></script>
+    <script src="./JavaScript/app.js" defer></script>
+</head>
+
+<body>
+    <div class="header__bgImage">
+        <header class="header container">
+            <div class="header__top">
+                <div class="search">
+                    <input type="search" hidden placeholder="search" />
+                    <img src="./image/search.svg" width="25" alt="">
+                </div>
+                <div class="logo">
+                    <img src="./image/logo.svg" alt="">
+                </div>
+                <div class="userIcon">
+
+                    <a href="" class="userIcon__Account">
+                        <img src="./image/Account.svg" width="25" alt="">
+                        <span class="font-button">Account</span>
+                    </a>
+
+                    <a class="userIcon__Shoping">
+                        <img src="./image/Shoping.svg" width="25" alt="">
+                        <span class="font-button">Shoping</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <nav class="navigete">
+                    <a class="navigete__link font-a-1" href="">Jewelry & Accessories</a>
+                    <a class="navigete__link font-a-1" href="">Clothing & Shoes</a>
+                    <a class="navigete__link font-a-1" href="">Home & Living</a>
+                    <a class="navigete__link font-a-1" href="">Wedding & Party</a>
+                    <a class="navigete__link font-a-1" href="">Toys & Entertainment</a>
+                    <a class="navigete__link font-a-1" href="">Art & Collectibles</a>
+                    <a class="navigete__link font-a-1" href="">Craft Supplies & Tools</a>
+                </nav>
+            </div>
+            <div class="main-banner ">
+                <article class="main-banner__article">
+                    <h1 class="font-body-1">Collections</h1>
+                    <p class="font-button-Larg">You can explore ans shop many differnt collection
+                        from various barands here.</p>
+                    <a href="">
+                        <img src="image/shop_Now.svg" alt="">
+                        shop now
+                    </a>
+                </article>
+                <img src="./image/banner/1x.png" alt="" class="main-banner__image">
+            </div>
+        </header>
+    </div>
+    <main>
+
+        <section class="bg-white">
+            <hr>
+            <div class="container">
+
+
+                <div class="brand hidden">
+                    <img class="brand__item" src="./image/brand/01.png" alt="">
+                    <img class="brand__item" src="./image/brand/02.png" alt="">
+                    <img class="brand__item" src="./image/brand/03.png" alt="">
+                    <img class="brand__item" src="./image/brand/04.png" alt="">
+                    <img class="brand__item" src="./image/brand/05.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bg-white">
+            <div class="container">
+                <h1 class="font-body-2 vertical-rl">Explore new and popular styles</h1>
+                <div class="newStyle">
+                    <img class="newStyle__main_image --animated_show" src="./image/newStyle/card-1.png" alt="">
+                    <img class="newStyle__other_image --animated_show" src="./image/newStyle/card-4.png" alt="">
+                    <img class="newStyle__other_image --animated_show" src="./image/newStyle/card-2.png" alt="">
+                    <img class="newStyle__other_image --animated_show" src="./image/newStyle/card-3.png" alt="">
+                    <img class="newStyle__other_image --animated_show" src="./image/newStyle/card.png" alt="">
+
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="container news ">
+            <h1 class="news__title font-headline-2"> Or subscribe to the newsletter </h1>
+            <div class="news__filter filter">
+                <div class="filter__category category">
+                    <button class="category__item --strong ">ALL Products</button>
+                    <button class="category__item">T-Shirt</button>
+                    <button class="category__item">Hoodies</button>
+                    <button class="category__item">Jacket</button>
+                </div>
+                <button class="filter__btn">
+                    <img src="./image/funnel.svg" alt="">
+                    <span>Filter</span>
+                </button>
+            </div>
+
+            <div class="news__products products">
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-3/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Adicolor Classics Joggers</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Dress</p>
+                                <p class="Overline Cart_article__price">$63.85</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-2/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Nike Repel Miler</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Dress</p>
+                                <p class="Overline Cart_article__price">$120.50</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+
+
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-5/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Geometric print Scarf</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">scarf</p>
+                                <p class="Overline Cart_article__price">$53.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-4/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Nike Sportswear Futura Luxe</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Bag</p>
+                                <p class="Overline Cart_article__price">$130.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-6/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Basic Dress Green</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Dress</p>
+                                <p class="Overline Cart_article__price">$236.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-7/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Nike Sportswear Futura Luxe</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Glasses</p>
+                                <p class="Overline Cart_article__price">$160.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-1/1x.jpg " class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Yellow Reserved Hoodie</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Dress</p>
+                                <p class="Overline Cart_article__price">$364.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-8/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Nike Air Zoom Pegasus</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">shoe</p>
+                                <p class="Overline Cart_article__price">$220.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <section class="bg-black">
+
+            <div class="container ">
+
+                <div class="zara ">
+                    <div class="zara-banner"></div>
+
+                    <figure class="zara-content">
+                        <img src="./image/zara/logo.svg" class="zara-content__logo" alt="">
+                        <figcaption>
+                            <p class="font-Paragraph zara-content__subtitle">Lustrous yet understated. The new evening
+                                <br>
+                                wear collection exclusively offered at the <br>
+                                reopened Giorgio Armani boutique in Los <br>
+                                Angeles.
+                            </p>
+
+                        </figcaption>
+                        <a href="#" class="zara-content__link">see collection</a>
+                    </figure>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="container Best-sellers">
+            <h1 class="Best-sellers__title font-headline-2"> Best sellers </h1>
+            <div class="Best-sellers__filter filter">
+                <div class="filter__category category">
+                    <button class="category__item --strong">ALL Products</button>
+                    <button class="category__item">T-Shirt</button>
+                    <button class="category__item">Hoodies</button>
+                    <button class="category__item">Jacket</button>
+                </div>
+                <button class="filter__btn">
+                    <img src="./image/funnel.svg" alt="">
+                    <span>Filter</span>
+                </button>
+            </div>
+
+            <div class="Best-sellers__products products hidden">
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-3/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Adicolor Classics Joggers</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Dress</p>
+                                <p class="Overline Cart_article__price">$63.85</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-2/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Nike Repel Miler</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Dress</p>
+                                <p class="Overline Cart_article__price">$120.50</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+
+
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-5/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Geometric print Scarf</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">scarf</p>
+                                <p class="Overline Cart_article__price">$53.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+                <figure class="products__card card --animated_show">
+                    <img src="./image/Products/products-4/1x.jpg" class="card___image">
+                    <figcaption>
+                        <article class="card___text Cart_article">
+                            <h2 class="font-headline-6 Cart_article__title">Nike Sportswear Futura Luxe</h2>
+                            <div class="Cart_article__subtitle">
+                                <p class="font-a-1 Cart_article__type">Bag</p>
+                                <p class="Overline Cart_article__price">$130.00</p>
+                            </div>
+                        </article>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
