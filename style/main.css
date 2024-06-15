@@ -1,3 +1,6 @@
+*{
+    outline: 1px solid red !important;
+}
 html {
     font-size: 32px;
 }
@@ -136,12 +139,14 @@ main {
     background: white;
 }
 
-.brand {
-
+.brand .swiper-wrapper {
+    /* overflow: hidden; */
+    
     padding: 90px 0;
     display: flex;
     justify-content: space-between;
 }
+
 
 
 .vertical-rl {
@@ -325,6 +330,7 @@ main {
     min-width: 180px;
 }
 
+
 @media screen and (max-width:1100px) {
     html {
         font-size: 24px;
@@ -365,16 +371,32 @@ main {
     html {
         font-size: 14px;
     }
-
+ 
+    .news__products {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .Best-sellers,
     .news {
         gap: 14px;
         font-family: 0.5rem;
     }
+    .zara-content {
+      margin: 0 auto;
+    }
+    .zara-banner{
+        left: 0;
+        background-position: center left;
+    }
 
 }
 
 @media screen and (max-width:480px) {
+    .filter__category{
+        display: none;
+    }
+    .news__products {
+        grid-template-columns: repeat(1, 1fr);
+    }
     html {
         font-size: 14px;
     }

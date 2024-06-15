@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./JavaScript/gsap/gsap.js"></script>
     <script src="./JavaScript/gsap/ScrollTrigger.js"></script>
     <script src="./JavaScript/app.js" defer></script>
@@ -69,11 +72,13 @@
 
 
                 <div class="brand hidden">
-                    <img class="brand__item" src="./image/brand/01.png" alt="">
-                    <img class="brand__item" src="./image/brand/02.png" alt="">
-                    <img class="brand__item" src="./image/brand/03.png" alt="">
-                    <img class="brand__item" src="./image/brand/04.png" alt="">
-                    <img class="brand__item" src="./image/brand/05.png" alt="">
+                    <div class="swiper-wrapper">
+                        <img class="brand__item swiper-slide brand-1" data-id="1" src="./image/brand/01.png" alt="">
+                        <img class="brand__item swiper-slide brand-2" data-id="2" src="./image/brand/02.png" alt="">
+                        <img class="brand__item swiper-slide brand-3" data-id="3" src="./image/brand/03.png" alt="">
+                        <img class="brand__item swiper-slide brand-4" data-id="4" src="./image/brand/04.png" alt="">
+                        <img class="brand__item swiper-slide brand-5" data-id="5" src="./image/brand/05.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -251,63 +256,72 @@
             </div>
 
             <div class="Best-sellers__products products hidden">
-                <figure class="products__card card --animated_show">
-                    <img src="./image/Products/products-3/1x.jpg" class="card___image">
-                    <figcaption>
-                        <article class="card___text Cart_article">
-                            <h2 class="font-headline-6 Cart_article__title">Adicolor Classics Joggers</h2>
-                            <div class="Cart_article__subtitle">
-                                <p class="font-a-1 Cart_article__type">Dress</p>
-                                <p class="Overline Cart_article__price">$63.85</p>
-                            </div>
-                        </article>
-                    </figcaption>
-                </figure>
+                <div class="swiper-wrapper">
+                    <figure class="products__card card --animated_show swiper-slide">
+                        <img src="./image/Products/products-3/1x.jpg" class="card___image">
+                        <figcaption>
+                            <article class="card___text Cart_article">
+                                <h2 class="font-headline-6 Cart_article__title">Adicolor Classics Joggers</h2>
+                                <div class="Cart_article__subtitle">
+                                    <p class="font-a-1 Cart_article__type">Dress</p>
+                                    <p class="Overline Cart_article__price">$63.85</p>
+                                </div>
+                            </article>
+                        </figcaption>
+                    </figure>
 
-                <figure class="products__card card --animated_show">
-                    <img src="./image/Products/products-2/1x.jpg" class="card___image">
-                    <figcaption>
-                        <article class="card___text Cart_article">
-                            <h2 class="font-headline-6 Cart_article__title">Nike Repel Miler</h2>
-                            <div class="Cart_article__subtitle">
-                                <p class="font-a-1 Cart_article__type">Dress</p>
-                                <p class="Overline Cart_article__price">$120.50</p>
-                            </div>
-                        </article>
-                    </figcaption>
-                </figure>
+                    <figure class="products__card card --animated_show swiper-slide">
+                        <img src="./image/Products/products-2/1x.jpg" class="card___image">
+                        <figcaption>
+                            <article class="card___text Cart_article">
+                                <h2 class="font-headline-6 Cart_article__title">Nike Repel Miler</h2>
+                                <div class="Cart_article__subtitle">
+                                    <p class="font-a-1 Cart_article__type">Dress</p>
+                                    <p class="Overline Cart_article__price">$120.50</p>
+                                </div>
+                            </article>
+                        </figcaption>
+                    </figure>
 
 
-                <figure class="products__card card --animated_show">
-                    <img src="./image/Products/products-5/1x.jpg" class="card___image">
-                    <figcaption>
-                        <article class="card___text Cart_article">
-                            <h2 class="font-headline-6 Cart_article__title">Geometric print Scarf</h2>
-                            <div class="Cart_article__subtitle">
-                                <p class="font-a-1 Cart_article__type">scarf</p>
-                                <p class="Overline Cart_article__price">$53.00</p>
-                            </div>
-                        </article>
-                    </figcaption>
-                </figure>
-                <figure class="products__card card --animated_show">
-                    <img src="./image/Products/products-4/1x.jpg" class="card___image">
-                    <figcaption>
-                        <article class="card___text Cart_article">
-                            <h2 class="font-headline-6 Cart_article__title">Nike Sportswear Futura Luxe</h2>
-                            <div class="Cart_article__subtitle">
-                                <p class="font-a-1 Cart_article__type">Bag</p>
-                                <p class="Overline Cart_article__price">$130.00</p>
-                            </div>
-                        </article>
-                    </figcaption>
-                </figure>
+                    <figure class="products__card card --animated_show swiper-slide">
+                        <img src="./image/Products/products-5/1x.jpg" class="card___image">
+                        <figcaption>
+                            <article class="card___text Cart_article">
+                                <h2 class="font-headline-6 Cart_article__title">Geometric print Scarf</h2>
+                                <div class="Cart_article__subtitle">
+                                    <p class="font-a-1 Cart_article__type">scarf</p>
+                                    <p class="Overline Cart_article__price">$53.00</p>
+                                </div>
+                            </article>
+                        </figcaption>
+                    </figure>
+                    <figure class="products__card card --animated_show swiper-slide">
+                        <img src="./image/Products/products-4/1x.jpg" class="card___image">
+                        <figcaption>
+                            <article class="card___text Cart_article">
+                                <h2 class="font-headline-6 Cart_article__title">Nike Sportswear Futura Luxe</h2>
+                                <div class="Cart_article__subtitle">
+                                    <p class="font-a-1 Cart_article__type">Bag</p>
+                                    <p class="Overline Cart_article__price">$130.00</p>
+                                </div>
+                            </article>
+                        </figcaption>
+                    </figure>
+                </div>
+
             </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <!-- Swiper JS -->
+
+    <!-- Initialize Swiper -->
+    <script defer>
+
+    </script>
 </body>
 
 </html>
