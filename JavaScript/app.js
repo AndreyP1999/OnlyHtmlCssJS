@@ -12,7 +12,7 @@ document.querySelectorAll("section").forEach(section => {
             start: "top 60%",
             end: "bottom 10%",
             // toggleActions: "play reverse play reverse",
-            // markers: true,
+             markers: true,
             onEnter: () => {
                 gsap.from(section.querySelectorAll(".--animated_show"), {
                     opacity: 0,
